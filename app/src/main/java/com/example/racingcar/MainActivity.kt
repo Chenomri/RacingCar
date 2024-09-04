@@ -172,7 +172,7 @@ class MainActivity : AppCompatActivity() {
         if (gameManger.isGameLost()) {
             main_HEARTS_Linear[DISQUALIFICATIONS - gameManger.wrongAnswers].visibility = View.INVISIBLE
             vibrate()
-            toast("")
+            toast("disqualifcation")
         }
         if (gameManger.isGameEnded) {
             toast("game over")
