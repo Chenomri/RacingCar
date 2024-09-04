@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Defualt_margin">10dp</dimen>
+    <dimen name="View_width">220dp</dimen>
+    <dimen name="default_margin">10dp</dimen>
+    <dimen name="Linear_height">70dp</dimen>
+    <dimen name="row_margin">1dp</dimen>
+</resources>
