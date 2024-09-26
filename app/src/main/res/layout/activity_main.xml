@@ -10,8 +10,23 @@
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/main_TOP_Linear"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
+        <com.google.android.material.textview.MaterialTextView
+           android:id="@+id/Main_Score_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="000">
+
+        </com.google.android.material.textview.MaterialTextView>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/main_HEARTS_Linear"
@@ -21,6 +36,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="@dimen/default_margin"
         android:layout_marginTop="@dimen/default_margin">
+
 
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -138,6 +154,7 @@
             app:srcCompat="@drawable/car" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/main_ROW_stone_0"
         android:layout_width="match_parent"
@@ -157,8 +174,9 @@
             android:layout_width="0dp"
             android:layout_height= "match_parent"
             android:layout_weight="1"
-             android:visibility="invisible"
-            app:srcCompat="@drawable/stone"/>
+            android:visibility="invisible"
+            app:srcCompat="@drawable/stone"
+           />
 
         <View
             android:layout_width="0dp"
@@ -745,5 +763,617 @@
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_TOP_Linear"
+        android:layout_margin="@dimen/row_margin">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r0_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r0_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r0_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r0_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r0_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_ROW_coin_0"
+        android:layout_margin="@dimen/row_margin">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r1_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r1_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r1_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r1_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r1_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_ROW_coin_1"
+        android:layout_margin="@dimen/row_margin">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r2_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r2_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r2_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r2_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r2_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_ROW_coin_2"
+        android:layout_margin="@dimen/row_margin">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r3_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r3_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r3_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r3_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r3_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_ROW_stone_3"
+        android:layout_margin="@dimen/row_margin">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r4_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r4_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r4_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r4_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r4_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_ROW_coin_4"
+        android:layout_margin="@dimen/row_margin">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r5_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r5_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r5_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r5_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r5_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_ROW_coin_5"
+        android:layout_margin="@dimen/row_margin">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r6_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r6_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r6_c2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r6_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r6_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"
+            tools:ignore="TooManyViews" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06"
+            android:background="@color/black">
+        </View>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_ROW_coin_7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Linear_height"
+        android:layout_below="@id/main_ROW_coin_6"
+        android:layout_margin="@dimen/row_margin">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r7_c0"
+            android:layout_width="0dp"
+            android:layout_height= "match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r7_c1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+          <com.google.android.material.imageview.ShapeableImageView
+              android:id="@+id/main_IMG_coin_r7_c2"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:visibility="invisible"
+              app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r7_c3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/main_IMG_coin_r7_c4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/coin" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
 
 </RelativeLayout>
